@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+
+.navname{
+    font-family: grand hotel;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.thisNav div:hover{
+   color: greenyellow;
+}
+
+.thisNav{
+    display: flex;
+    align-items: center;
+    
+}
+
+@media  screen and (max-width:900px) {
+
+    .uvixa{
+        display: grid;
+        
+    }
+    .uvixa div{
+        width: 100%;
+    }
+
+    .thisNav{
+        display: grid;
+    }
+    .thisNav div{
+      width: 100%;
+      text-align: center;
+    }
+}

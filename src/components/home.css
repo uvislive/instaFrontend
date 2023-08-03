@@ -1,0 +1,101 @@
+img{
+    width: 80% ;
+      margin: auto; 
+}
+
+.card1{
+    width: 85%;
+    text-align: left;
+    border: 1px solid black;
+font-weight: bold;
+margin: auto;
+box-shadow: 0 8px 9px 5px ;
+}
+
+.card h3{
+    margin-left: 130px;
+}
+
+
+.card{
+    margin-top: 30px;
+}
+
+input{
+    border: 3px solid black;
+    border-radius: 999px;
+    width:222px;
+     margin-top:20px;
+     margin-left:122px;
+text-align: center;
+    }
+
+.likebar{
+    margin-top: 40px;
+margin: 20px;
+display: flex;
+justify-content: space-around;
+}
+
+.like{
+    height:2rem;
+    justify-content: center;
+    display: flex;
+   width: 10rem;
+    background: rgb(237, 234, 234);
+   border-radius: 888px;
+   align-items: center;
+}
+
+.comment {
+        height: 2rem;
+            justify-content: center;
+            display: flex;
+            width: 10rem;
+            background: rgb(237, 234, 234);
+            border-radius: 888px;
+            align-items: center;
+
+}
+.share {
+    height: 2rem;
+        justify-content: center;
+        display: flex;
+        width: 10rem;
+        background: rgb(237, 234, 234);
+        border-radius: 888px;
+        align-items: center;
+}
+
+
+span{
+  color: blue;
+}
+
+
+.likebar .MuiSvgIcon-root {
+    font-size: 33px;
+}
+
+.likebar .MuiSvgIcon-root:hover {
+    /* font-size: 55px; */
+    animation: LikeBar;
+    animation-timing-function: ease-in;
+    animation-duration: .8s;
+}
+
+
+@keyframes LikeBar {
+    0%{
+        font-size: 33px;
+    }
+    30%{
+        font-size: 40px;
+    }
+    70%{
+        font-size: 80px;
+    }
+    100%{
+        font-size:33px ;
+    }
+}
